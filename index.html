@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basketball Formations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <div id="layout">
+    <div id="sidePanel">
+      
+      <h2> Player Info</h2>
+      <h4> 1 : Point Guard </h4>
+      <h4> 2 : Small Forward </h4>
+      <h4> 3 : Shooting Guard </h4>
+      <h4> 4 : Center </h4>
+      <h4> 5 : Power Forward </h4>
+      <h2>Defense Info</h2>
+      <p><strong>Formation:</strong> 3-2 Zone</p>
+      <p><strong>Style:</strong> Aggressive</p>
+      <p><strong>Team:</strong> DBPC</p>
+      <p><strong>Ball With :</strong> <span id="ballIndexLabel">2</span></p>
+      <p> <b>This Person is </b></p> <h4 id ="data"></h4>
+      <h3> Home </h3>
+      <a href="https://www.donboscoparkcircus.org" target="_blank">
+        <img id="logo" src="school-logo-small.png" alt="School Logo">
+      </a>
+      
+      
+      
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Three-two defense logic -->
+  <script src="threeTwoDefense.js"></script>
+
+  <!-- App controller -->
+  <script src="main.js"></script>
+</body>
+</html>

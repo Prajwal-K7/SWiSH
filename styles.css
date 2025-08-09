@@ -1,0 +1,45 @@
+/* Ensure body and html fill the entire screen */
+.zen-dots-regular {
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  body { margin: 0; overflow: auto; }
+  canvas { display: block; }
+  /* Layout container */
+  #layout {
+    display: flex;
+    height: 170vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  /* Sidebar panel on the left */
+  #sidePanel {
+    width: 250px;
+    background: linear-gradient(to right, #2f6be3, #87a5e0);
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+    font-family: "Zen Dots";
+  }
+  
+  /* Canvas takes the remaining space */
+  canvas {
+    flex-grow: 1;
+    display: block;
+  }
+  
+#logo {
+    margin-top: 10px;  /* space above logo */
+    width: 100px;      /* adjust size */
+    height: auto;
+  }
+  
