@@ -8,7 +8,7 @@ window.initThreeTwoDefense = function(canvasId = "canvas") {
   canvas.width = window.innerWidth + 200;
   canvas.height = window.innerHeight + 610;
 
-  const centerX = canvas.width * 0.4 + 155;
+  const centerX = canvas.width * 0.4 + 150;
   const semiRadius = 300;
   const yOffset = 400;
   const centerY = canvas.height / 2 + 100 + yOffset;
