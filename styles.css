@@ -24,7 +24,7 @@ html, body {
   /* Sidebar panel on the left */
   #sidePanel {
     width: 250px;
-    background: linear-gradient(to right, #2f6be3, #87a5e0);
+    background-color: transparent;
     padding: 20px;
     box-sizing: border-box;
     border-right: 1px solid #ccc;
